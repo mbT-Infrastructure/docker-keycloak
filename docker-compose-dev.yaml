@@ -1,0 +1,14 @@
+version: "3.8"
+
+services:
+
+    keycloak:
+        container_name: keycloak
+        build: .
+        environment:
+            - ADMIN_USERNAME=admin
+            - ADMIN_PASSWORD=admin
+            - FRONTEND_URL=http://localhost
+            - KC_HTTP_ENABLED=true
+        ports:
+            - 80:80
