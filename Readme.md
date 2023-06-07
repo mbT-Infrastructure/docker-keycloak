@@ -22,12 +22,6 @@ There are more keycloak specific environment variables available.
 Refer to [keycloak.org](https://www.keycloak.org/server/all-config) for more information.
 
 
-## Volumes
-
-- `/media/volume`
-    - The input and output directory of the files to ...
-
-
 ## Development
 
 To build and run for development run:
