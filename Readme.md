@@ -10,7 +10,7 @@ This Docker image contains a keycloak installation.
 - `ADMIN_USERNAME`
     - Username of the initial admin user. Overwrites `KEYCLOAK_ADMIN`, default: `admin`.
 - `DATABASE_JDBC_URL`
-    - The complete JDBC Url of the database. Overwrites `KC_DB_URL`.
+    - The complete JDBC Url of the database. Overwrites `KC_DB_URL` and for postgres `KC_DB`.
 - `FRONTEND_URL`
     - The base URL where keycloak is accessed. Overwrites `KC_HOSTNAME_URL`.
 - `KC_HTTP_PORT`
