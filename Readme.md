@@ -1,4 +1,4 @@
-# Docker image
+# Keycloak image
 
 This Docker image contains a keycloak installation.
 
